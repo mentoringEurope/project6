@@ -24,6 +24,14 @@ public class Address {
         City
         ZipCode
      */
+
+
+    /*
+        Üç tane  private  String variables oluştur
+        Address1
+        City
+        ZipCode
+     */
     private  String Address1, City, ZipCode;
 
 
@@ -35,6 +43,20 @@ public class Address {
 
     private Address1 equal to myAddress
      */
+
+
+     /*
+    Address1  methodunu oluştur
+    Return türü String
+    Parameter  String(myAddress) olmalı
+
+    private Address1 eşittir myAddress
+     */
+
+
+
+
+
     //TODO no so clear question, what should I return?
     public String Address1(String myAddress){
 //        return Address1.equalsIgnoreCase(myAddress) ? Address1 : myAddress;
@@ -54,6 +76,24 @@ public class Address {
         if the first condition is false
         private City equal to myCity
      */
+
+
+
+     /*
+         City methodunu olustur
+        return türü String
+        parameter  String(myCity) olmalı
+
+        if cityList  myCity  içermiyorsa
+         We are not able to ship to your location  return et
+
+        Eger ilk condition false ise
+        private City  myCity ye eşittir
+     */
+
+
+
+
     //TODO not so clear question, what should I return?
     public String City(String myCity){
         if(!this.cityList.contains(myCity)){
@@ -76,6 +116,20 @@ public class Address {
         private ZipCode equal to myZipcode
 
      */
+
+    /*
+       Zipcode methodunu oluşturun
+       Return türü String
+       Parameter  String(myZipcode) olmalı
+
+       if myZipcode length 5 e eşit değilse
+       Zip code length should be 5  return et
+
+        Eger ilk condition false ise
+        private ZipCode  myZipcode ye eşittir
+
+
+    */
     //TODO method name apperently is ZipCode not Zipcode...
     public String ZipCode(String myZipcode){
         if(myZipcode.length()!= 5){

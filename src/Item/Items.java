@@ -8,6 +8,14 @@ public class Items {
       private static double allUserPrice
 
      */
+
+     /*
+      Instance variables oluştur
+      private double price
+      private static double allUserPrice
+
+     */
+
     private double price;
     private static double allUserPrice;
 
@@ -38,6 +46,37 @@ public class Items {
 
          if my item = mug
             add 15.79 to price variable
+
+     */
+
+
+    /*
+        ItemName methodunu oluştur
+        Return türü void
+        Parameter  String(myItem)  olsun
+
+        NOT:  SWITCH STATEMENT KULLAN
+
+        Eğer myItem = Rose teddy bear ise
+        price variable 30 ekle
+
+        Eğer myItem = Iphone max   ise
+         price variable 850.23 ekle
+
+         Eğer myItem = laptop mouse   ise
+         price variable 23.50 ekle
+
+         Eğer myItem = Monitor  ise
+         price variable 90.23 ekle
+
+          Eğer myItem = charger ise
+          price variable 43.20 ekle
+
+         Eğer myItem = hdmi cable  ise
+         price variable 5.90 ekle
+
+         Eğer my item = mug  ise
+         price variable 30 ekle
 
      */
     public void ItemName(String myItem){
@@ -85,6 +124,27 @@ public class Items {
            if color = White
             add 2 to price variable
      */
+
+    /*
+        colorPrice methodunu oluştur
+        Return türü void
+        Parameter  String(color) olmalı
+
+        NOT : SWITCH STATEMENT KULLAN
+
+           Eğer color = Red  ise
+           price variable  10 ekle
+
+          Eğer color = Blue   ise
+          price variable 6 ekle
+
+           Eğer color = Black   ise
+           price variable  4 ekle
+
+           Eğer color = White  ise
+            price variable  2 ekle
+     */
+
     public void colorPrice(String color){
         switch (color){
             case "Red":
@@ -116,6 +176,21 @@ public class Items {
         add 3 to price variable
 
      */
+
+
+
+    /*
+   customText methodunu oluştur
+   return türü double
+   parametreler bir tane boolean ve bir tane  String olmalı
+
+   Eğer boolean true ve  String length 10 dan büyük ise
+   price variable 5 ekle
+
+   Eğer boolean true ve String length 10 dan büyük veya 10 a eşit ise
+        price variable 3 ekle
+
+    */
     //TODO what should I return? , typo then*, second condition is redundant why need to check >= ???
     public double customText(boolean b, String s){
         if(b && s.length() > 10){
@@ -138,6 +213,15 @@ public class Items {
 
      */
 
+
+    /*
+       AddtoAllUserPrice methodunu oluşturun
+       return türü  void
+       parametresiz olmalı
+
+       allUserPrice a price ekle
+
+    */
     public void AddtoAllUserPrice(){
         allUserPrice+=price;
     }
@@ -148,8 +232,17 @@ public class Items {
         return type is double
         no parameter
 
-        return the allUserPrice
+         allUserPrice   return edin
      */
+
+
+    /*
+       getAllUserPrice methodunu oluşturun
+       return türü double
+       parametresiz olmalı
+
+       allUserPrice return edin
+    */
     public static double getAllUserPrice(){
         return allUserPrice;
     }

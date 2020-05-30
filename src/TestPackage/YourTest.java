@@ -11,6 +11,11 @@ public class YourTest {
               Do not change the before class
     */
 
+    /*
+        before class verilmiştir
+
+        before class değiştirmeyin
+   */
     @Before
     public void beforeClass(){
 
@@ -31,5 +36,19 @@ public class YourTest {
     NOTE :  For each possibility you need to create a different @Test method
 
      */
+
+
+      /*
+
+    KOD BURDAN BAŞLIYOR
+
+     UserNameAndPassword class setUsername method TEST EDİN
+
+    Bütün ihtimalleri check edin
+
+    NOTE :  Her ihtimal için farklı @Test method oluşturmanız gerekiyor
+
+     */
+
 
 }

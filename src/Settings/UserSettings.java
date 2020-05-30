@@ -17,6 +17,22 @@ public class UserSettings {
     double        myPrice
 
      */
+
+    /*
+   Bütün variables lar  public
+   Stringler   username
+                 password
+                 Address1
+                 City
+                 ZipCode
+                 ItemName
+                 customText
+                 color
+
+   boolean       wanaCustomText
+   double        myPrice
+
+    */
     public String username,
             password,
             Address1,
@@ -41,6 +57,18 @@ public class UserSettings {
 
      */
 
+
+    /*
+
+         toString methodunu oluşturun
+         Bütün variables ları aşağıdaki gibi return et
+
+                "\nusername : " + username +
+                "\npassword :" + password +
+                "\nAddress1 " + Address1+
+                 ........
+
+     */
     @Override
     public String toString() {
         return
